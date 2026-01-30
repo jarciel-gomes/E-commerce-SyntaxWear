@@ -11,7 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'], ol[role='list'] {
+ul, ul[role='list'], ol[role='list'] {
     list-style: none;
 }
 
@@ -30,6 +30,9 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
     text-decoration-skip-ink: auto;
+}
+a {
+    text-decoration: none;
 }
 
 /* Make images easier to work with */

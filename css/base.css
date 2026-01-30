@@ -1,6 +1,12 @@
 /* base.css */
+
+html{
+     font-size: 62.5%;
+}
+
 body {
      font-family: --font-principal;
-     background-color: #ffffff;
+     background-color: #000000;
      color: #333333;
+     font-size: 1.6rem;
 }

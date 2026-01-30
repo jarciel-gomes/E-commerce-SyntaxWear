@@ -1,1 +1,45 @@
 /* header.css */
+.header {
+     background-color: #ffffff;
+     position: fixed;
+     top: 20px;
+     left: 50%;
+     transform: translate(-50%);
+     width: calc(100% - 40px);
+     border-radius: 15px;
+     z-index: 999;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 2rem 3.2rem;
+}
+
+.logo img {
+     height: 40px;
+}
+
+.nav-center ul,
+.nav-right ul {
+     display: flex;
+     gap: 4rem;
+     align-items: center;
+}
+
+.nav-center ul a,
+.nav-right ul a {
+     font-size: 2rem;
+     font-weight: 400;
+}
+
+.nav-center ul a:hover,
+.nav-right ul a:hover {
+     color: #7c3aed;
+}
+
+.nav-right img {
+     height: 2opx;
+}
+
+.nav-right a img:hover {
+     opacity: 0.7;
+}
