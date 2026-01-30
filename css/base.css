@@ -1,1 +1,6 @@
 /* base.css */
+body {
+     font-family: --font-principal;
+     background-color: #ffffff;
+     color: #333333;
+}
